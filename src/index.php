@@ -15,5 +15,4 @@ include('header.php');
 <?php 
 include('fragment_fileList.php');
  ?>
-<p><a href="<%= $signOutUrl %>"><%= text('Sign Out') %></a></p>
 </body>
