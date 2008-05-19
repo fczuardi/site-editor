@@ -26,4 +26,6 @@ echo "$path was last modified: " . date ("F d Y H:i:s.", filemtime($path));
 </textarea>
 <input type="submit">
 </form>
-</body>
+<?php
+include('footer.php');
+?>

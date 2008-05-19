@@ -71,9 +71,9 @@ Here is an excerpt from the official public announcement of that particular bad(
 As networks have become more complex, the Site Editor has become a less effective tool for managing changes. Rather than divert our focus from network features and performance, we have made the difficult decision to retire it. But don’t worry! You can still access these files through WebDav or an SFTP (secure file transfer protocol) program, many of which are free to download and install."
 http://networkcreators.ning.com/forum/topic/show?id=492224%3ATopic%3A228645
 
-As expected, the backlash from the community of network creators and Ning enthusiasts was big, you don't have to be a genius to know that if you take one usefull and perfectly working feature from your service people that got used to that and that had it as part of their natural workflows *will complain*, and so they did. And I completed understood and agreed with the complaints, because I also loved the Site Editor, and I miss it, and I have tried my best to convince internally that retiring it was not a good idea...
+Anyways, since the main function and more missed part of the old site editor was the web based file browsing, and since it is not difficult to recreate such an interface in PHP from scratch, and since Ning is a platform that allows for PHP-based user-created extentions. I simply figured out that the best I could do was to get this task and build my own open source Site Editor replacement on my free time.
 
-Anyways, since the main function and more missed part of the old site editor was the web based file browsing, and since it is not difficult to recreate such an interface in PHP from scratch, and since Ning is a platform that allows for PHP-based user-created extentions. I simply figured out that the best I could do was to get this task and build my own open source Site Editor replacement on my free time. This doc was the starting point of the project, it is Sunday, and I don't plan to have any sleep until the first alpha release gets out :)
+I believe that having a quick way to edit your app's text files from *any* computer from anywhere at any time, with the only requirement beeing a computer with a web browser is a pretty powerfull thing. And I hope to keep that ability alive with this humble hack :)
 
 
 CONTRIBUTE

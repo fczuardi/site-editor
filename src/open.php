@@ -36,5 +36,5 @@ if (is_dir($path)){
     <?php
     }
 }
+include('footer.php');
 ?>
-</body>

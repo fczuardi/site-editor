@@ -14,5 +14,5 @@ include('header.php');
 <h2><%= $isOwner ? text('Greetings Professor Falken') : text('Read-Only Mode') %></h2>
 <?php 
 include('fragment_fileList.php');
+include('footer.php');
  ?>
-</body>
