@@ -1,0 +1,87 @@
+Site Editor v0.1
+by
+Fabricio Campos Zuardi
+http://fabricio.org
+
+
+INTRO
+------------
+Site Editor is a web interface to manage, browse and edit files and settings of a Web Application.
+
+The original purpose of this application is to be a simple and quick replacement for the now retired web based site editor interface of Ning.com.
+
+
+DISCLAIMER
+----------
+The main developer of this project and the creator of the original code, Fabricio C Zuardi, works for Ning, loves the Ning platform, and is developing this project on his own freetime without consulting his employees or asking for support, approval, or endorsement of any kind.
+
+*THIS PROJECT IS NOT SUPPORTED, NOR ENDORSED BY NING INC.* This is an independent open source project, made and mantained by the open source community, developers and enthusiasts of the ning platform. 
+
+*USE IT AT YOUR OWN RISK.*
+
+THIS MAY EXPLODE YOUR NING SOCIAL NETWORK IF INSTALLED. Do not, I REPEAT, DO NOT, UNDER ANY CIRCUNSTANCES INSTALL IT ON A PRODUCTION NING NETWORK.
+But if you do it, do it at your own risk, make backups, *AND NEVER, NEVER EVER THINK ABOUT BOTHERING NING.COM SUPPORT WITH QUESTIONS OR BUGS OF THIS SOFTWARE*.
+
+They have nothing to do with it. 
+You have been warned.
+
+
+LICENSE
+-----------
+This is open source software, and it is licensed under the new 3-clauses BSD License, here it is:
+
+Copyright (c) 2005, Fabricio Zuardi
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    * Neither the name of the author nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+
+
+
+INSTALLATION
+------------
+TBD
+
+
+MOTIVATION
+------------
+
+With Ning.com increasely growth and evolution from a Google App Engine-like developer playground and host for scalable generic web applications platform, to a more social-network focused/one main app supporter targeting end users, well summarized by the moto "create a social network for anything", more and more power-user features and tools has to get out of the way or be discontinued in orther to keep the company moving and focused in this area where the "market-fit"* got achieved.
+
+As examples of this trade-offs, we have seen the discontinuity of some very cool/bold/innovaitve concepts, tools and interfaces like:
+- automatic code backups
+- web based versioning interface with diffs, restore and merges
+- a Roles management system integrated on the platform
+- the ability to fork(clone) interesting web apps with one click
+- web based view-source interface for any application hosted on the playground
+
+With the release of May 17th 2008, once more, the social network application had to make one more victim in order to progress, this time, the Site Editor, a simple web interface to browse and edit files of your web application hosted on the Ning Playground. The reasoning is a good one: maintaining support for such a powerfull interface were any ordinary folk could make great damages to his own network as the service scale can become a nightmare, and with limited resources, it is more important to keep making the main application better and gather more users(in the end of the day, that's the currency that matters) by releasing the engineering and support teams from this unnecessary burden.
+
+Here is an excerpt from the official public announcement of that particular bad(for developers and some network creators) news:
+
+"Retiring the Site Editor
+As networks have become more complex, the Site Editor has become a less effective tool for managing changes. Rather than divert our focus from network features and performance, we have made the difficult decision to retire it. But don’t worry! You can still access these files through WebDav or an SFTP (secure file transfer protocol) program, many of which are free to download and install."
+http://networkcreators.ning.com/forum/topic/show?id=492224%3ATopic%3A228645
+
+As expected, the backlash from the community of network creators and Ning enthusiasts was big, you don't have to be a genius to know that if you take one usefull and perfectly working feature from your service people that got used to that and that had it as part of their natural workflows *will complain*, and so they did. And I completed understood and agreed with the complaints, because I also loved the Site Editor, and I miss it, and I have tried my best to convince internally that retiring it was not a good idea...
+
+Anyways, since the main function and more missed part of the old site editor was the web based file browsing, and since it is not difficult to recreate such an interface in PHP from scratch, and since Ning is a platform that allows for PHP-based user-created extentions. I simply figured out that the best I could do was to get this task and build my own open source Site Editor replacement on my free time. This doc was the starting point of the project, it is Sunday, and I don't plan to have any sleep until the first alpha release gets out :)
+
+
+CONTRIBUTE
+----------
+If you are a developer and want to help make this project better, please do by visiting http://github.com/fczuardi/site-editor and then apply your patch and make a pull request.
+
+Contributions are very much appreciated.
+
+
+HELP/SUPPORT/QUESTIONS
+------------
+There is no such thing at the moment, you are on your own.
+Good luck.
+
