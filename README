@@ -45,13 +45,16 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 INSTALLATION
 ------------
-TBD
+1- get the latest version of the source from the git repository git://github.com/fczuardi/site-editor.git
+2- create a new directory on the ning app you want to enable Site Editor using SFTP (yoursite/siteeditor)
+3- copy the contents of the src/ folder
+4- open the site editor url of your site (yoursite.ning.com/siteeditor/index.php)
 
 
 MOTIVATION
 ------------
 
-With Ning.com increasely growth and evolution from a Google App Engine-like developer playground and host for scalable generic web applications platform, to a more social-network focused/one main app supporter targeting end users, well summarized by the moto "create a social network for anything", more and more power-user features and tools has to get out of the way or be discontinued in orther to keep the company moving and focused in this area where the "market-fit"* got achieved.
+With Ning.com increasely growth and evolution from a Google App Engine-like developer playground and host for scalable generic web applications platform, to a more social-network focused/one main app supporter targeting end users, well summarized by the moto "create a social network for anything", more and more power-user features and tools has to get out of the way or be discontinued in order to keep the company moving and focused in this area where the "market-fit"* got achieved.
 
 As examples of this trade-offs, we have seen the discontinuity of some very cool/bold/innovaitve concepts, tools and interfaces like:
 - automatic code backups
