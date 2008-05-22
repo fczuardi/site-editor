@@ -4,4 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><%= $pageTitle %></title>
 </head>
-<body>
+<body style="background-color:#ccc">
+<h1><%= text('Site Editor') %></h1>
+<h2><%= $isOwner ? text('Greetings Professor Falken') : text('Read-Only Mode') %></h2>    
